@@ -133,7 +133,12 @@ async function generateMultiplePosts(topics, delay = 5000) {
 }
 
 // CLI
-if (import.meta.url === `file://${process.argv[1]}`) {
+const isMainModule = process.argv[1] && (
+  import.meta.url === `file:///${process.argv[1].replace(/\\/g, '/')}` ||
+  import.meta.url.endsWith('generate-multiple-posts.js')
+);
+
+if (isMainModule) {
   const args = process.argv.slice(2);
   
   if (args.includes('--list')) {

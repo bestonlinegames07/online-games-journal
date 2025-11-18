@@ -318,7 +318,12 @@ async function generateBlogPost(title, keywords = []) {
 }
 
 // CLI Interface
-if (import.meta.url === `file://${process.argv[1]}`) {
+const isMainModule = process.argv[1] && (
+  import.meta.url === `file:///${process.argv[1].replace(/\\/g, '/')}` ||
+  import.meta.url.endsWith(path.basename(process.argv[1]))
+);
+
+if (isMainModule) {
   const args = process.argv.slice(2);
   
   if (args.length === 0) {

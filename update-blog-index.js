@@ -247,7 +247,12 @@ function updateBlogIndex() {
 }
 
 // CLI
-if (import.meta.url === `file://${process.argv[1]}`) {
+const isMainModule = process.argv[1] && (
+  import.meta.url === `file:///${process.argv[1].replace(/\\/g, '/')}` ||
+  import.meta.url.endsWith('update-blog-index.js')
+);
+
+if (isMainModule) {
   updateBlogIndex();
 }
 

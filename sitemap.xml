@@ -1,38 +1,81 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-    <url>
-    <loc>https://onlinegamesjournal.com/index.html</loc>
+  <url>
+    <loc>https://bestonlinegames07.github.io/online-games-journal/</loc>
+    <lastmod>2025-11-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://onlinegamesjournal.com/about.html</loc>
+    <loc>https://bestonlinegames07.github.io/online-games-journal/blog/</loc>
+    <lastmod>2025-11-18</lastmod>
     <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://bestonlinegames07.github.io/online-games-journal/about.html</loc>
+    <lastmod>2025-11-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://bestonlinegames07.github.io/online-games-journal/blog/creating-a-positive-gaming-environment-in-your-community.html</loc>
+    <lastmod>2025-11-18</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://onlinegamesjournal.com/privacy.html</loc>
-    <changefreq>weekly</changefreq>
+    <loc>https://bestonlinegames07.github.io/online-games-journal/blog/how-to-improve-your-gaming-skills-a-comprehensive-guide.html</loc>
+    <lastmod>2025-11-18</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://onlinegamesjournal.com/terms.html</loc>
-    <changefreq>weekly</changefreq>
+    <loc>https://bestonlinegames07.github.io/online-games-journal/blog/best-cooperative-games-for-building-friendships.html</loc>
+    <lastmod>2025-11-18</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://onlinegamesjournal.com/blog/index.html</loc>
-    <changefreq>weekly</changefreq>
+    <loc>https://bestonlinegames07.github.io/online-games-journal/blog/understanding-online-games-and-their-communities.html</loc>
+    <lastmod>2025-11-18</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://onlinegamesjournal.com/blog/online-gaming-communities-connect-learn-grow.html</loc>
-    <changefreq>weekly</changefreq>
+    <loc>https://bestonlinegames07.github.io/online-games-journal/blog/online-gaming-fun-friendship-community.html</loc>
+    <lastmod>2025-11-18</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://onlinegamesjournal.com/blog/online-games-community-fun-and-skills.html</loc>
-    <changefreq>weekly</changefreq>
+    <loc>https://bestonlinegames07.github.io/online-games-journal/blog/online-gaming-communities-fun-and-learning.html</loc>
+    <lastmod>2025-11-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://bestonlinegames07.github.io/online-games-journal/blog/online-gaming-communities-connect-learn-grow.html</loc>
+    <lastmod>2025-11-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://bestonlinegames07.github.io/online-games-journal/blog/online-games-community-fun-and-skills.html</loc>
+    <lastmod>2025-11-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://bestonlinegames07.github.io/online-games-journal/blog/online-games-building-gaming-communities.html</loc>
+    <lastmod>2025-11-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://bestonlinegames07.github.io/online-games-journal/blog/family-guide-to-online-gaming-communities.html</loc>
+    <lastmod>2025-11-18</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 </urlset>
