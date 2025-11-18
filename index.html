@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Your guide to the best online games, gaming tips, and community news">
+  <meta name="robots" content="index, follow">
+  <title>Home | Online Games Journal</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <div class="header-content">
+        <div class="brand">
+          <h1 class="logo">Online Games Journal</h1>
+        </div>
+        <nav class="main-nav">
+          <a href="./index.html">Home</a><a href="./blog/index.html">Blog</a><a href="./about.html">About</a><a href="./privacy.html">Privacy</a><a href="./terms.html">Terms</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+  
+  <main class="main-content">
+    <div class="container">
+      
+      <section class="hero">
+        <h1>Online Games Journal</h1>
+        <p class="lead">Your guide to the best online games, gaming tips, and community news</p>
+      </section>
+      
+      <section class="posts-grid">
+        <h2>Latest Posts</h2>
+        <div class="grid">
+          
+            <article class="post-card">
+              <a href="./blog/online-gaming-communities-connect-learn-grow.html">
+                <div class="post-image">
+                  <img src="./images/online-gaming-communities-connect-learn-grow.png" alt="Online Gaming Communities: Connect, Learn, Grow">
+                </div>
+                <div class="post-content">
+                  <h3>Online Gaming Communities: Connect, Learn, Grow</h3>
+                  <p>Explore online gaming communities! Connect with fellow players, expand your knowledge, and grow your skills. Discover the benefits and find your tribe today.</p>
+                </div>
+              </a>
+            </article>
+          
+            <article class="post-card">
+              <a href="./blog/online-games-community-fun-and-skills.html">
+                <div class="post-image">
+                  <img src="./images/online-games-community-fun-and-skills.png" alt="Online Games: Community, Fun, and Skills">
+                </div>
+                <div class="post-content">
+                  <h3>Online Games: Community, Fun, and Skills</h3>
+                  <p>Dive into the world of online games! Discover how they foster community, deliver endless fun, and sharpen your skills. Informative insights await.</p>
+                </div>
+              </a>
+            </article>
+          
+        </div>
+      </section>
+    
+    </div>
+  </main>
+  
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2025 Online Games Journal. All rights reserved.</p>
+      <p class="disclaimer">This site provides informational content about online games. Play responsibly.</p>
+    </div>
+  </footer>
+  
+  
+  <script>
+    (function() {
+      if (localStorage.getItem('cookie-consent')) return;
+      const banner = document.createElement('div');
+      banner.className = 'cookie-banner';
+      banner.innerHTML = `
+        <div class="cookie-content">
+          <p>We use cookies for basic site functionality and analytics. <a href="./privacy.html">Learn more</a></p>
+          <button id="cookie-accept" class="btn-primary">Accept</button>
+        </div>
+      `;
+      document.body.appendChild(banner);
+      document.getElementById('cookie-accept').onclick = function() {
+        localStorage.setItem('cookie-consent', '1');
+        banner.remove();
+      };
+    })();
+  </script>
+</body>
+</html>

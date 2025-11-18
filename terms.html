@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Terms of use for our website">
+  <meta name="robots" content="index, follow">
+  <title>Terms and Conditions | Online Games Journal</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <div class="header-content">
+        <div class="brand">
+          <h1 class="logo">Online Games Journal</h1>
+        </div>
+        <nav class="main-nav">
+          <a href="./index.html">Home</a><a href="./blog/index.html">Blog</a><a href="./about.html">About</a><a href="./privacy.html">Privacy</a><a href="./terms.html">Terms</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+  
+  <main class="main-content">
+    <div class="container">
+      <section>
+    <h2>Terms and Conditions</h2>
+    <p>Welcome to the Online Games Journal. By accessing or using our website, you agree to comply with and be bound by the following Terms and Conditions. Please review them carefully. If you do not agree to these terms, you should not use this site.</p>
+</section>
+
+<section>
+    <h3>1. Acceptable Use Policy</h3>
+    <p>You agree to use the Online Games Journal website only for lawful purposes and in a way that does not infringe the rights of, restrict, or inhibit anyone else's use and enjoyment of the website. Prohibited conduct includes, but is not limited to:</p>
+    <ul>
+        <li>Engaging in any illegal activity or promoting illegal activities.</li>
+        <li>Uploading or transmitting any material that is defamatory, offensive, or otherwise objectionable.</li>
+        <li>Infringing on any intellectual property rights of the Online Games Journal or third parties.</li>
+        <li>Distributing unsolicited promotional material or "spam."</li>
+        <li>Attempting to interfere with the proper working of the website or its security.</li>
+        <li>Misrepresenting your identity or affiliation with any person or entity.</li>
+    </ul>
+</section>
+
+<section>
+    <h3>2. Content Rights and Ownership</h3>
+    <p>All content published on the Online Games Journal, including articles, reviews, graphics, logos, and software, is owned by or licensed to the Journal and is protected by copyright, trademark, and other intellectual property laws. You may not reproduce, distribute, modify, or create derivative works from any content without explicit written permission from the Online Games Journal.</p>
+    <p>Any content you submit to the website (e.g., comments, user-generated content) remains your property, but by submitting it, you grant the Online Games Journal a worldwide, non-exclusive, royalty-free, perpetual, irrevocable, and sublicensable license to use, reproduce, modify, adapt, publish, translate, create derivative works from, distribute, perform, and display such content in any media.</p>
+</section>
+
+<section>
+    <h3>3. Disclaimer of Warranties</h3>
+    <p>The Online Games Journal website is provided on an "as is" and "as available" basis, without any warranties of any kind, either express or implied, including, but not limited to, implied warranties of merchantability, fitness for a particular purpose, or non-infringement. We do not warrant that the website will be uninterrupted, error-free, secure, or free of viruses or other harmful components, nor do we make any warranty regarding the accuracy, completeness, or reliability of any content or information obtained through the website.</p>
+</section>
+
+<section>
+    <h3>4. Limitation of Liability</h3>
+    <p>To the fullest extent permitted by applicable law, the Online Games Journal, its affiliates, directors, employees, or agents shall not be liable for any indirect, incidental, special, consequential, or punitive damages, including without limitation, loss of profits, data, use, goodwill, or other intangible losses, resulting from (i) your access to or use of or inability to access or use the website; (ii) any conduct or content of any third party on the website; (iii) any content obtained from the website; and (iv) unauthorized access, use or alteration of your transmissions or content, whether based on warranty, contract, tort (including negligence) or any other legal theory, whether or not we have been informed of the possibility of such damage.</p>
+</section>
+    </div>
+  </main>
+  
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2025 Online Games Journal. All rights reserved.</p>
+      <p class="disclaimer">This site provides informational content about online games. Play responsibly.</p>
+    </div>
+  </footer>
+  
+  
+  <script>
+    (function() {
+      if (localStorage.getItem('cookie-consent')) return;
+      const banner = document.createElement('div');
+      banner.className = 'cookie-banner';
+      banner.innerHTML = `
+        <div class="cookie-content">
+          <p>We use cookies for basic site functionality and analytics. <a href="./privacy.html">Learn more</a></p>
+          <button id="cookie-accept" class="btn-primary">Accept</button>
+        </div>
+      `;
+      document.body.appendChild(banner);
+      document.getElementById('cookie-accept').onclick = function() {
+        localStorage.setItem('cookie-consent', '1');
+        banner.remove();
+      };
+    })();
+  </script>
+</body>
+</html>

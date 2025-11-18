@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Our privacy and data protection policy">
+  <meta name="robots" content="index, follow">
+  <title>Privacy Policy | Online Games Journal</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <div class="header-content">
+        <div class="brand">
+          <h1 class="logo">Online Games Journal</h1>
+        </div>
+        <nav class="main-nav">
+          <a href="./index.html">Home</a><a href="./blog/index.html">Blog</a><a href="./about.html">About</a><a href="./privacy.html">Privacy</a><a href="./terms.html">Terms</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+  
+  <main class="main-content">
+    <div class="container">
+      <section>
+    <h2>Privacy Policy</h2>
+    <p><strong>Effective Date: [Insert Current Date]</strong></p>
+    <p>Welcome to Online Games Journal. This Privacy Policy outlines how Online Games Journal ("we," "us," or "our") collects, uses, and protects information when you use our website (the "Service"). By accessing our Service, you agree to the terms herein. We are committed to safeguarding your privacy.</p>
+</section>
+
+<section>
+    <h3>Information We Collect</h3>
+    <p>We collect minimal information necessary to operate and improve our Service:</p>
+    <ul>
+        <li><strong>Personal Data:</strong> Information you voluntarily provide, such as your email address (for newsletters or comments) or a username.</li>
+        <li><strong>Usage Data:</strong> Non-personally identifiable information transmitted by your browser, including your IP address, browser type, pages visited, time spent on pages, and referring URLs. This helps us understand how our Service is used.</li>
+    </ul>
+</section>
+
+<section>
+    <h3>How We Use Your Information</h3>
+    <p>The information we collect is used to:</p>
+    <ul>
+        <li>Provide and maintain our Service.</li>
+        <li>Improve content and user experience.</li>
+        <li>Communicate with you (if you've opted in, e.g., for newsletters).</li>
+        <li>Monitor the usage of our Service.</li>
+    </ul>
+</section>
+
+<section>
+    <h3>Cookies and Tracking Technologies</h3>
+    <p>We use cookies and similar tracking technologies to enhance your experience. Cookies are small data files stored on your device that help us remember your preferences and understand website activity. You may instruct your browser to refuse cookies, but some parts of our Service may not function correctly.</p>
+</section>
+
+<section>
+    <h3>Analytics</h3>
+    <p>We may utilize third-party analytics services, such as Google Analytics, to track and report website traffic. These services collect anonymized data to help us analyze how users interact with our Service and improve its functionality. Google Analytics' data collection is subject to their own privacy policy.</p>
+</section>
+
+<section>
+    <h3>Your Data Rights</h3>
+    <p>You have rights concerning your personal data, including the right to:</p>
+    <ul>
+        <li>Access the data we hold about you.</li>
+        <li>Request correction of inaccurate or incomplete data.</li>
+        <li>Request deletion of your data under certain conditions.</li>
+        <li>Object to or request restriction of processing your data.</li>
+    </ul>
+    <p>To exercise these rights, please contact us using the details below.</p>
+</section>
+
+<section>
+    <h3>Data Security</h3>
+    <p>We implement reasonable security measures to protect your Personal Data. However, no internet transmission or electronic storage method is 100% secure, and we cannot guarantee absolute security.</p>
+</section>
+
+<section>
+    <h3>Changes to This Policy</h3>
+    <p>We may update this Privacy Policy periodically. We will notify you of any changes by posting the new policy on this page. Your continued use of the Service after changes constitutes your acceptance of the revised policy.</p>
+</section>
+
+<section>
+    <h3>Contact Us</h3>
+    <p>For any questions about this Privacy Policy, please reach us at:</p>
+    <ul>
+        <li>Email: privacy@onlinegamesjournal.com</li>
+    </ul>
+</section>
+    </div>
+  </main>
+  
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2025 Online Games Journal. All rights reserved.</p>
+      <p class="disclaimer">This site provides informational content about online games. Play responsibly.</p>
+    </div>
+  </footer>
+  
+  
+  <script>
+    (function() {
+      if (localStorage.getItem('cookie-consent')) return;
+      const banner = document.createElement('div');
+      banner.className = 'cookie-banner';
+      banner.innerHTML = `
+        <div class="cookie-content">
+          <p>We use cookies for basic site functionality and analytics. <a href="./privacy.html">Learn more</a></p>
+          <button id="cookie-accept" class="btn-primary">Accept</button>
+        </div>
+      `;
+      document.body.appendChild(banner);
+      document.getElementById('cookie-accept').onclick = function() {
+        localStorage.setItem('cookie-consent', '1');
+        banner.remove();
+      };
+    })();
+  </script>
+</body>
+</html>
